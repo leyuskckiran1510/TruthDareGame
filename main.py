@@ -1,3 +1,5 @@
+#LEYUSKC 2021/June/1/Tuesday/
+
 from flask import Flask,render_template,request
 from replit import db
 from forget import message
@@ -8,11 +10,6 @@ db["Viewers"]=0
 @app.route("/")
 def frontpage():
   return render_template("frontpage.html")
-
-
-
-
-
 
 @app.route('/index')
 def index():
