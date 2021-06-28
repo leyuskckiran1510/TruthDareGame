@@ -2,7 +2,8 @@
 name = "repl_python3_pol"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Your Name Kiran Raj Dhakal"]
+link to website=["https://pol.leyuskcsmile.repl.co/"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
