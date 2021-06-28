@@ -42,12 +42,7 @@ def main():
   if request.method=="GET":
     return render_template('goback.html')
 
-@app.route("/root")
-def root():
-  ids={}
-  for i in db.keys():
-    ids[i]=db[i]
-  return render_template("root.html",ids=ids)
+
 
 
 @app.route("/forget",methods=["POST","GET"])
